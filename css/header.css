@@ -12,7 +12,7 @@
 .logo > .accent{
     color: #4D5AE5;
 }
-
+/* nav */
 .nav-list .link{
     color:#2E2F42;
     font-weight: 500;
@@ -20,18 +20,21 @@
 
 .nav-list .link:hover,
 .nav-list .link:focus{
-    color:#4D5AE5;
+    color:#404BBF;
 }
 
 .nav-list .link:active{
-    color:#4D5AE5;
+    color:#404BBF;
     text-decoration: underline;
 }
 
+/* contacts */
 .contacts-list .link{
     color: #434455;
 }
-/* HOVER */
-.contacts-list .link:hover{
+
+.contacts-list .link:hover,
+.contacts-list .link:active,
+.contacts-list .link:focus{
     color:#404BBF;
 }
